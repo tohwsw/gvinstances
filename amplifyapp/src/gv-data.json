@@ -1,0 +1,79 @@
+[
+    {
+        "x86": "c4",
+        "graviton": "c6g"
+    },
+    {
+        "x86": "c5",
+        "graviton": "c6g"
+    },
+    {
+        "x86": "c5a",
+        "graviton": "c6g"
+    },
+    {
+        "x86": "c5n",
+        "graviton": "c6gn"
+    },
+    {
+        "x86": "c6i",
+        "graviton": "c7g"
+    },
+    {
+        "x86": "c6a",
+        "graviton": "c7g"
+    },
+    {
+        "x86": "m4",
+        "graviton": "m6g"
+    },
+    {
+        "x86": "m5",
+        "graviton": "m6g"
+    },
+    {
+        "x86": "m5a",
+        "graviton": "m6g"
+    },
+    {
+        "x86": "m6i",
+        "graviton": "m6g"
+    },
+    {
+        "x86": "m6a",
+        "graviton": "m6g"
+    },
+    {
+        "x86": "r4",
+        "graviton": "r6g"
+    },
+    {
+        "x86": "r5",
+        "graviton": "r6g"
+    },
+    {
+        "x86": "r5a",
+        "graviton": "r6g"
+    },
+    {
+        "x86": "r6i",
+        "graviton": "r6g"
+    },
+    {
+        "x86": "r6a",
+        "graviton": "r6g"
+    },
+    {
+        "x86": "t2",
+        "graviton": "t4g"
+    },
+    {
+        "x86": "t3",
+        "graviton": "t4g"
+    },
+    {
+        "x86": "t3a",
+        "graviton": "t4g"
+    }
+
+]

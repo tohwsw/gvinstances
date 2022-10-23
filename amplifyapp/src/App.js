@@ -10,19 +10,21 @@ function App() {
     setInputText(lowerCase);
   };
 
-  return (
-    <div className="main">
-      <div>The information on this page is to provide general guidance in instance selection for those who are transitioning to Graviton from x86.
+  return (     
+    <div>
+      <div className="w3-container w3-red">The information on this page is to provide general guidance in instance selection for those who are transitioning to Graviton from x86.
     These are general guidelines to help make initial recommendations, and adjustments maybe necessary after factoring performance</div>
-      <h1>Graviton Search</h1>
-      <div className="search">
+      <h1>Graviton Instance Search</h1>
+      <p>Please key in an x86 instance to get a Graviton instance recommendation</p>
+      <p>eg. c5.xlarge, r6a.2xlarge</p>
+      <div>
         <input type="text"
           id="outlined-basic"
           onChange={inputHandler}
           variant="outlined"
-          fullWidth
           label="Search"
         />
+      <p></p>
       </div>
       <List input={inputText} />
     </div>

@@ -1,79 +1,146 @@
 [
     {
-        "x86": "c4",
-        "graviton": "c6g"
+      "x86": "c6i.large",
+      "graviton": "c6g.large",
+      "cpu": 2,
+      "memory": 4,
+      "storage": "EBS-Only",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "c5",
-        "graviton": "c6g"
+      "x86": "c6i.xlarge",
+      "graviton": "c6g.xlarge",
+      "cpu": 4,
+      "memory": 8,
+      "storage": "EBS-Only",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "c5a",
-        "graviton": "c6g"
+      "x86": "c6i.2xlarge",
+      "graviton": "c6g.2xlarge",
+      "cpu": 8,
+      "memory": 16,
+      "storage": "EBS-Only",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "c5n",
-        "graviton": "c6gn"
+      "x86": "c6i.4xlarge",
+      "graviton": "c6g.4xlarge",
+      "cpu": 16,
+      "memory": 32,
+      "storage": "EBS-Only",
+      "networkw": "Up to 10",
+      "ebsbw": "4750"
     },
     {
-        "x86": "c6i",
-        "graviton": "c7g"
+      "x86": "c6i.8xlarge",
+      "graviton": "c6g.8xlarge",
+      "cpu": 32,
+      "memory": 64,
+      "storage": "EBS-Only",
+      "networkw": "12",
+      "ebsbw": "9000"
     },
     {
-        "x86": "c6a",
-        "graviton": "c7g"
+      "x86": "c6i.12xlarge",
+      "graviton": "c6g.12xlarge",
+      "cpu": 48,
+      "memory": 96,
+      "storage": "EBS-Only",
+      "networkw": "20",
+      "ebsbw": "13500"
     },
     {
-        "x86": "m4",
-        "graviton": "m6g"
+      "x86": "c6i.16xlarge",
+      "graviton": "c6g.16xlarge",
+      "cpu": 64,
+      "memory": 128,
+      "storage": "EBS-Only",
+      "networkw": "25",
+      "ebsbw": "19000"
     },
     {
-        "x86": "m5",
-        "graviton": "m6g"
+      "x86": "c6i.metal",
+      "graviton": "c6g.metal",
+      "cpu": 64,
+      "memory": 128,
+      "storage": "EBS-Only",
+      "networkw": "25",
+      "ebsbw": "19000"
     },
     {
-        "x86": "m5a",
-        "graviton": "m6g"
+      "x86": "c6id.large",
+      "graviton": "c6gd.large",
+      "cpu": 2,
+      "memory": 4,
+      "storage": "1 x 118 NVMe SSD",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "m6i",
-        "graviton": "m6g"
+      "x86": "c6id.xlarge",
+      "graviton": "c6gd.xlarge",
+      "cpu": 4,
+      "memory": 8,
+      "storage": "1 x 237 NVMe SSD",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "m6a",
-        "graviton": "m6g"
+      "x86": "c6id.2xlarge",
+      "graviton": "c6gd.2xlarge",
+      "cpu": 8,
+      "memory": 16,
+      "storage": "1 x 474 NVMe SSD",
+      "networkw": "Up to 10",
+      "ebsbw": "Up to 4,750"
     },
     {
-        "x86": "r4",
-        "graviton": "r6g"
+      "x86": "c6id.4xlarge",
+      "graviton": "c6gd.4xlarge",
+      "cpu": 16,
+      "memory": 32,
+      "storage": "1 x 950 NVMe SSD",
+      "networkw": "Up to 10",
+      "ebsbw": "4,750"
     },
     {
-        "x86": "r5",
-        "graviton": "r6g"
+      "x86": "c6id.8xlarge",
+      "graviton": "c6gd.8xlarge",
+      "cpu": 32,
+      "memory": 64,
+      "storage": "1 x 1900 NVMe SSD",
+      "networkw": "12",
+      "ebsbw": "9,000"
     },
     {
-        "x86": "r5a",
-        "graviton": "r6g"
+      "x86": "c6id.12xlarge",
+      "graviton": "c6gd.12xlarge",
+      "cpu": 48,
+      "memory": 96,
+      "storage": "2 x 1425 NVMe SSD",
+      "networkw": "20",
+      "ebsbw": "13,500"
     },
     {
-        "x86": "r6i",
-        "graviton": "r6g"
+      "x86": "c6id.16xlarge",
+      "graviton": "c6gd.16xlarge",
+      "cpu": 64,
+      "memory": 128,
+      "storage": "2 x 1900 NVMe SSD",
+      "networkw": "25",
+      "ebsbw": "19,000"
     },
     {
-        "x86": "r6a",
-        "graviton": "r6g"
-    },
-    {
-        "x86": "t2",
-        "graviton": "t4g"
-    },
-    {
-        "x86": "t3",
-        "graviton": "t4g"
-    },
-    {
-        "x86": "t3a",
-        "graviton": "t4g"
+      "x86": "c6id.metal",
+      "graviton": "c6gd.metal",
+      "cpu": 64,
+      "memory": 128,
+      "storage": "2 x 1900 NVMe SSD",
+      "networkw": "25",
+      "ebsbw": "19,000"
     }
-
-]
+   ]

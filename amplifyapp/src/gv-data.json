@@ -1,146 +1,695 @@
 [
-    {
-      "x86": "c6i.large",
-      "graviton": "c6g.large",
-      "cpu": 2,
-      "memory": 4,
-      "storage": "EBS-Only",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6i.xlarge",
-      "graviton": "c6g.xlarge",
-      "cpu": 4,
-      "memory": 8,
-      "storage": "EBS-Only",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6i.2xlarge",
-      "graviton": "c6g.2xlarge",
-      "cpu": 8,
-      "memory": 16,
-      "storage": "EBS-Only",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6i.4xlarge",
-      "graviton": "c6g.4xlarge",
-      "cpu": 16,
-      "memory": 32,
-      "storage": "EBS-Only",
-      "networkw": "Up to 10",
-      "ebsbw": "4750"
-    },
-    {
-      "x86": "c6i.8xlarge",
-      "graviton": "c6g.8xlarge",
-      "cpu": 32,
-      "memory": 64,
-      "storage": "EBS-Only",
-      "networkw": "12",
-      "ebsbw": "9000"
-    },
-    {
-      "x86": "c6i.12xlarge",
-      "graviton": "c6g.12xlarge",
-      "cpu": 48,
-      "memory": 96,
-      "storage": "EBS-Only",
-      "networkw": "20",
-      "ebsbw": "13500"
-    },
-    {
-      "x86": "c6i.16xlarge",
-      "graviton": "c6g.16xlarge",
-      "cpu": 64,
-      "memory": 128,
-      "storage": "EBS-Only",
-      "networkw": "25",
-      "ebsbw": "19000"
-    },
-    {
-      "x86": "c6i.metal",
-      "graviton": "c6g.metal",
-      "cpu": 64,
-      "memory": 128,
-      "storage": "EBS-Only",
-      "networkw": "25",
-      "ebsbw": "19000"
-    },
-    {
-      "x86": "c6id.large",
-      "graviton": "c6gd.large",
-      "cpu": 2,
-      "memory": 4,
-      "storage": "1 x 118 NVMe SSD",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6id.xlarge",
-      "graviton": "c6gd.xlarge",
-      "cpu": 4,
-      "memory": 8,
-      "storage": "1 x 237 NVMe SSD",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6id.2xlarge",
-      "graviton": "c6gd.2xlarge",
-      "cpu": 8,
-      "memory": 16,
-      "storage": "1 x 474 NVMe SSD",
-      "networkw": "Up to 10",
-      "ebsbw": "Up to 4,750"
-    },
-    {
-      "x86": "c6id.4xlarge",
-      "graviton": "c6gd.4xlarge",
-      "cpu": 16,
-      "memory": 32,
-      "storage": "1 x 950 NVMe SSD",
-      "networkw": "Up to 10",
-      "ebsbw": "4,750"
-    },
-    {
-      "x86": "c6id.8xlarge",
-      "graviton": "c6gd.8xlarge",
-      "cpu": 32,
-      "memory": 64,
-      "storage": "1 x 1900 NVMe SSD",
-      "networkw": "12",
-      "ebsbw": "9,000"
-    },
-    {
-      "x86": "c6id.12xlarge",
-      "graviton": "c6gd.12xlarge",
-      "cpu": 48,
-      "memory": 96,
-      "storage": "2 x 1425 NVMe SSD",
-      "networkw": "20",
-      "ebsbw": "13,500"
-    },
-    {
-      "x86": "c6id.16xlarge",
-      "graviton": "c6gd.16xlarge",
-      "cpu": 64,
-      "memory": 128,
-      "storage": "2 x 1900 NVMe SSD",
-      "networkw": "25",
-      "ebsbw": "19,000"
-    },
-    {
-      "x86": "c6id.metal",
-      "graviton": "c6gd.metal",
-      "cpu": 64,
-      "memory": 128,
-      "storage": "2 x 1900 NVMe SSD",
-      "networkw": "25",
-      "ebsbw": "19,000"
-    }
-   ]
+  {
+    "amd64": "c6i.large",
+    "arm64": "c7g.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 12.5",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6i.xlarge",
+    "arm64": "c7g.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 12.5",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6i.2xlarge",
+    "arm64": "c7g.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 15",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6i.4xlarge",
+    "arm64": "c7g.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 15",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6i.8xlarge",
+    "arm64": "c7g.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "15",
+    "ebsbw": "10"
+  },
+  {
+    "amd64": "c6i.12xlarge",
+    "arm64": "c7g.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "EBS-Only",
+    "networkbw": "22.5",
+    "ebsbw": "15"
+  },
+  {
+    "amd64": "c6i.16xlarge",
+    "arm64": "c7g.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "30",
+    "ebsbw": "20"
+  },
+  {
+    "amd64": "c6i.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6i.32xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6i.metal",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6id.large",
+    "arm64": "c6gd.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "1 x 118 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c6id.xlarge",
+    "arm64": "c6gd.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "1 x 237 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c6id.2xlarge",
+    "arm64": "c6gd.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "1 x 474 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c6id.4xlarge",
+    "arm64": "c6gd.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "1 x 950 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750"
+  },
+  {
+    "amd64": "c6id.8xlarge",
+    "arm64": "c6gd.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "1 x 1900 NVMe SSD",
+    "networkbw": "12",
+    "ebsbw": "9,000"
+  },
+  {
+    "amd64": "c6id.12xlarge",
+    "arm64": "c6gd.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "2 x 1425 NVMe SSD",
+    "networkbw": "20",
+    "ebsbw": "13,500"
+  },
+  {
+    "amd64": "c6id.16xlarge",
+    "arm64": "c6gd.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "2 x 1900 NVMe SSD",
+    "networkbw": "25",
+    "ebsbw": "19,000"
+  },
+  {
+    "amd64": "c6id.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6id.32xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6id.metal",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c4.large",
+    "arm64": "c6g.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c4.xlarge",
+    "arm64": "c6g.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c4.2xlarge",
+    "arm64": "c6g.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c4.4xlarge",
+    "arm64": "c6g.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "4750"
+  },
+  {
+    "amd64": "c4.8xlarge",
+    "arm64": "c6g.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "12",
+    "ebsbw": "9000"
+  },
+  {
+    "amd64": "c5n.large",
+    "arm64": "c6gn.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 25",
+    "ebsbw": "Up to 9.5"
+  },
+  {
+    "amd64": "c5n.xlarge",
+    "arm64": "c6gn.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 25",
+    "ebsbw": "Up to 9.5"
+  },
+  {
+    "amd64": "c5n.2xlarge",
+    "arm64": "c6gn.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 25",
+    "ebsbw": "Up to 9.5"
+  },
+  {
+    "amd64": "c5n.4xlarge",
+    "arm64": "c6gn.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "25",
+    "ebsbw": "9.5"
+  },
+  {
+    "amd64": "c5n.9xlarge",
+    "arm64": "c6gn.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "50",
+    "ebsbw": "19"
+  },
+  {
+    "amd64": "c5n.18xlarge",
+    "arm64": "c6gn.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "100",
+    "ebsbw": "38"
+  },
+  {
+    "amd64": "c5n.metal",
+    "arm64": "c6gn.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "100",
+    "ebsbw": "38"
+  },
+  {
+    "amd64": "c5.large",
+    "arm64": "c6g.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5.xlarge",
+    "arm64": "c6g.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5.2xlarge",
+    "arm64": "c6g.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5.4xlarge",
+    "arm64": "c6g.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "4750"
+  },
+  {
+    "amd64": "c5.9xlarge",
+    "arm64": "c6g.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "12",
+    "ebsbw": "9000"
+  },
+  {
+    "amd64": "c5.12xlarge",
+    "arm64": "c6g.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "EBS-Only",
+    "networkbw": "20",
+    "ebsbw": "13500"
+  },
+  {
+    "amd64": "c5.18xlarge",
+    "arm64": "c6g.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "25",
+    "ebsbw": "19000"
+  },
+  {
+    "amd64": "c5.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c5.metal",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c5d.large",
+    "arm64": "c6gd.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "1 x 118 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5d.xlarge",
+    "arm64": "c6gd.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "1 x 237 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5d.2xlarge",
+    "arm64": "c6gd.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "1 x 474 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5d.4xlarge",
+    "arm64": "c6gd.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "1 x 950 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750"
+  },
+  {
+    "amd64": "c5d.9xlarge",
+    "arm64": "c6gd.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "1 x 1900 NVMe SSD",
+    "networkbw": "12",
+    "ebsbw": "9,000"
+  },
+  {
+    "amd64": "c5d.12xlarge",
+    "arm64": "c6gd.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "2 x 1425 NVMe SSD",
+    "networkbw": "20",
+    "ebsbw": "13,500"
+  },
+  {
+    "amd64": "c5d.18xlarge",
+    "arm64": "c6gd.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "2 x 1900 NVMe SSD",
+    "networkbw": "25",
+    "ebsbw": "19,000"
+  },
+  {
+    "amd64": "c5d.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c5d.metal",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c5a.large",
+    "arm64": "c6g.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5a.xlarge",
+    "arm64": "c6g.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5a.2xlarge",
+    "arm64": "c6g.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5a.4xlarge",
+    "arm64": "c6g.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "4750"
+  },
+  {
+    "amd64": "c5a.8xlarge",
+    "arm64": "c6g.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "12",
+    "ebsbw": "9000"
+  },
+  {
+    "amd64": "c5a.12xlarge",
+    "arm64": "c6g.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "EBS-Only",
+    "networkbw": "20",
+    "ebsbw": "13500"
+  },
+  {
+    "amd64": "c5a.16xlarge",
+    "arm64": "c6g.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "25",
+    "ebsbw": "19000"
+  },
+  {
+    "amd64": "c5a.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c5ad.large",
+    "arm64": "c6gd.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "1 x 118 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5ad.xlarge",
+    "arm64": "c6gd.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "1 x 237 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5ad.2xlarge",
+    "arm64": "c6gd.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "1 x 474 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750"
+  },
+  {
+    "amd64": "c5ad.4xlarge",
+    "arm64": "c6gd.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "1 x 950 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750"
+  },
+  {
+    "amd64": "c5ad.8xlarge",
+    "arm64": "c6gd.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "1 x 1900 NVMe SSD",
+    "networkbw": "12",
+    "ebsbw": "9,000"
+  },
+  {
+    "amd64": "c5ad.12xlarge",
+    "arm64": "c6gd.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "2 x 1425 NVMe SSD",
+    "networkbw": "20",
+    "ebsbw": "13,500"
+  },
+  {
+    "amd64": "c5ad.16xlarge",
+    "arm64": "c6gd.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "2 x 1900 NVMe SSD",
+    "networkbw": "25",
+    "ebsbw": "19,000"
+  },
+  {
+    "amd64": "c5ad.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6a.large",
+    "arm64": "c7g.large",
+    "cpu": 2,
+    "memory": 4,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 12.5",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6a.xlarge",
+    "arm64": "c7g.xlarge",
+    "cpu": 4,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 12.5",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6a.2xlarge",
+    "arm64": "c7g.2xlarge",
+    "cpu": 8,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 15",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6a.4xlarge",
+    "arm64": "c7g.4xlarge",
+    "cpu": 16,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 15",
+    "ebsbw": "Up to 10"
+  },
+  {
+    "amd64": "c6a.8xlarge",
+    "arm64": "c7g.8xlarge",
+    "cpu": 32,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "15",
+    "ebsbw": "10"
+  },
+  {
+    "amd64": "c6a.12xlarge",
+    "arm64": "c7g.12xlarge",
+    "cpu": 48,
+    "memory": 96,
+    "storage": "EBS-Only",
+    "networkbw": "22.5",
+    "ebsbw": "15"
+  },
+  {
+    "amd64": "c6a.16xlarge",
+    "arm64": "c7g.16xlarge",
+    "cpu": 64,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "30",
+    "ebsbw": "20"
+  },
+  {
+    "amd64": "c6a.24xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6a.32xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6a.48xlarge",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  },
+  {
+    "amd64": "c6a.metal",
+    "arm64": "",
+    "cpu": null,
+    "memory": null,
+    "storage": "",
+    "networkbw": "",
+    "ebsbw": ""
+  }
+ ]

@@ -8,7 +8,7 @@ function List(props) {
     const isAMD = (value) => {
         
         // if input value matches any x86 instance in data
-        if (value.amd64.includes(props.input)) {
+        if (value.amd64.startsWith(props.input)) {
                 return value;
             } 
     }
@@ -18,7 +18,6 @@ function List(props) {
             <div>
                 <table class="w3-table-all"> 
                 <tr class="w3-orange">
-                    <th>x86 Model</th>
                     <th>Graviton Model</th>
                     <th>CPU</th>
                     <th>Memory</th>
@@ -28,7 +27,6 @@ function List(props) {
                 </tr>
                 {data.map((item) => (
                     <tr> 
-                        <th>{item.amd64}</th>
                         <th>{item.arm64}</th>
                         <th>{item.cpu}</th>
                         <th>{item.memory}</th>
@@ -49,7 +47,6 @@ function List(props) {
                 <div>
                     <table class="w3-table-all">
                     <tr class="w3-orange">
-                        <th>x86 Model</th>
                         <th>Graviton Model</th>
                         <th>CPU</th>
                         <th>Memory</th>
@@ -59,7 +56,6 @@ function List(props) {
                     </tr>
                     {filteredData.map((item) => (
                         <tr> 
-                            <th>{item.amd64}</th>
                             <th>{item.arm64}</th>
                             <th>{item.cpu}</th>
                             <th>{item.memory}</th>

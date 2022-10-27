@@ -16,7 +16,7 @@ function App() {
     These are general guidelines to help make initial recommendations, and adjustments maybe necessary after factoring performance</div>
       <div className="w3-container w3-yellow"> Graviton instances top out at 16xl</div>
       <h1>Graviton Instance Search</h1>
-      <p>Please key in an x86 instance to get a Graviton instance recommendation</p>
+      <p>Please key in an x86 instance (C,R,M or T) to get a Graviton instance recommendation</p>
       <p>eg. c5.xlarge, r6a.2xlarge</p>
       <div>
         <input type="text"

@@ -1768,5 +1768,215 @@
     "networkbw": "25",
     "ebsbw": "19,000",
     "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.large",
+    "arm64": "m6g.large",
+    "cpu": 2,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.xlarge",
+    "arm64": "m6g.xlarge",
+    "cpu": 4,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.2xlarge",
+    "arm64": "m6g.2xlarge",
+    "cpu": 8,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.4xlarge",
+    "arm64": "m6g.4xlarge",
+    "cpu": 16,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.8xlarge",
+    "arm64": "m6g.8xlarge",
+    "cpu": 32,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "12",
+    "ebsbw": "9,000",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.12xlarge",
+    "arm64": "m6g.12xlarge",
+    "cpu": 48,
+    "memory": 192,
+    "storage": "EBS-Only",
+    "networkbw": "20",
+    "ebsbw": "13,500",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6i.16xlarge",
+    "arm64": "m6g.16xlarge",
+    "cpu": 64,
+    "memory": 256,
+    "storage": "EBS-Only",
+    "networkbw": "25",
+    "ebsbw": "19,000",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.large",
+    "arm64": "m6gd.large",
+    "cpu": 2,
+    "memory": 8,
+    "storage": "1 x 118 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.xlarge",
+    "arm64": "m6gd.xlarge",
+    "cpu": 4,
+    "memory": 16,
+    "storage": "1 x 237 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.2xlarge",
+    "arm64": "m6gd.2xlarge",
+    "cpu": 8,
+    "memory": 32,
+    "storage": "1 x 474 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.4xlarge",
+    "arm64": "m6gd.4xlarge",
+    "cpu": 16,
+    "memory": 64,
+    "storage": "1 x 950 NVMe SSD",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.8xlarge",
+    "arm64": "m6gd.8xlarge",
+    "cpu": 32,
+    "memory": 128,
+    "storage": "1 x 1900 NVMe SSD",
+    "networkbw": "12",
+    "ebsbw": "9,000",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.12xlarge",
+    "arm64": "m6gd.12xlarge",
+    "cpu": 48,
+    "memory": 192,
+    "storage": "2 x 1425 NVMe SSD",
+    "networkbw": "20",
+    "ebsbw": "13,500",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6id.16xlarge",
+    "arm64": "m6gd.16xlarge",
+    "cpu": 64,
+    "memory": 256,
+    "storage": "2 x 1900 NVMe SSD",
+    "networkbw": "25",
+    "ebsbw": "19,000",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.large",
+    "arm64": "m6g.large",
+    "cpu": 2,
+    "memory": 8,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.xlarge",
+    "arm64": "m6g.xlarge",
+    "cpu": 4,
+    "memory": 16,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.2xlarge",
+    "arm64": "m6g.2xlarge",
+    "cpu": 8,
+    "memory": 32,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "Up to 4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.4xlarge",
+    "arm64": "m6g.4xlarge",
+    "cpu": 16,
+    "memory": 64,
+    "storage": "EBS-Only",
+    "networkbw": "Up to 10",
+    "ebsbw": "4,750",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.8xlarge",
+    "arm64": "m6g.8xlarge",
+    "cpu": 32,
+    "memory": 128,
+    "storage": "EBS-Only",
+    "networkbw": "12",
+    "ebsbw": "9,000",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.12xlarge",
+    "arm64": "m6g.12xlarge",
+    "cpu": 48,
+    "memory": 192,
+    "storage": "EBS-Only",
+    "networkbw": "20",
+    "ebsbw": "13,500",
+    "FIELD8": ""
+  },
+  {
+    "amd64": "m6a.16xlarge",
+    "arm64": "m6g.16xlarge",
+    "cpu": 64,
+    "memory": 256,
+    "storage": "EBS-Only",
+    "networkbw": "25",
+    "ebsbw": "19,000",
+    "FIELD8": ""
   }
  ]

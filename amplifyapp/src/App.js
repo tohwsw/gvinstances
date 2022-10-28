@@ -15,7 +15,7 @@ function App() {
       <div className="w3-container w3-red">The information on this page is to provide general guidance in instance selection for those who are transitioning to Graviton from x86.
     These are general guidelines to help make initial recommendations, and adjustments maybe necessary after factoring performance</div>
       <div className="w3-container w3-yellow"> Graviton instances top out at 16xl</div>
-      <h1>Graviton Instance Search</h1>
+      <h1>x86 to Graviton Instance Map</h1>
       <p>Please key in an x86 instance (C,I,M,R,T) to get a Graviton instance recommendation</p>
       <p>eg. c5.xlarge, r6a.2xlarge</p>
       <div>

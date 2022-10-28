@@ -18,6 +18,7 @@ function List(props) {
             <div>
                 <table class="w3-table-all"> 
                 <tr class="w3-orange">
+                    <th bgcolor="aqua">x86 Model</th>
                     <th>Graviton Model</th>
                     <th>CPU</th>
                     <th>Memory</th>
@@ -27,6 +28,7 @@ function List(props) {
                 </tr>
                 {data.map((item) => (
                     <tr> 
+                        <th>{item.amd64}</th>
                         <th>{item.arm64}</th>
                         <th>{item.cpu}</th>
                         <th>{item.memory}</th>
@@ -47,6 +49,7 @@ function List(props) {
                 <div>
                     <table class="w3-table-all">
                     <tr class="w3-orange">
+                        <th bgcolor="aqua">x86 Model</th>
                         <th>Graviton Model</th>
                         <th>CPU</th>
                         <th>Memory</th>
@@ -56,6 +59,7 @@ function List(props) {
                     </tr>
                     {filteredData.map((item) => (
                         <tr> 
+                            <th>{item.amd64}</th>
                             <th>{item.arm64}</th>
                             <th>{item.cpu}</th>
                             <th>{item.memory}</th>

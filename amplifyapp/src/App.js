@@ -11,7 +11,7 @@ function App() {
   };
 
   return (     
-    <div>
+    <div  class="w3-container w3-center">
       <div className="w3-container w3-red">The information on this page is to provide general guidance in instance selection for those who are transitioning to Graviton from x86.
     These are general guidelines to help make initial recommendations, and adjustments maybe necessary after factoring performance</div>
       <div className="w3-container w3-yellow"> Graviton instances top out at 16xl</div>
